@@ -1,0 +1,172 @@
+{
+  "questoes": [
+    {
+      "numero": 1,
+      "dificuldade": 1,
+      "conteudo": "A corrente elétrica em um condutor de cobre é formada pelo movimento ordenado de:",
+      "previa": "A corrente elétrica em...",
+      "resposta": "b",
+      "alternativas": {
+        "a": "Prótons.",
+        "b": "Elétrons.",
+        "c": "Fótons.",
+        "d": "Neutrons."
+      },
+      "src":""
+    },
+    {
+      "numero": 2,
+      "dificuldade": 2,
+      "conteudo": "O circuito a seguir é formado por três resistores A, B e C, que estão associados em série, entre os pontos X e Y. Essa associação equivale a um resistor entre os pontos X e Y com valor de:",
+      "previa": "O circuito a seguir é formado...",
+      "resposta": "d",
+      "alternativas": {
+        "a": "30Ω",
+        "b": "40Ω",
+        "c": "50Ω",
+        "d": "60Ω"
+      },
+      "src":"./assets/questoes/media2.jpg"
+    },
+    {
+      "numero": 3,
+      "dificuldade": 3,
+      "conteudo": "O circuito a seguir é formado por três resistores A, B e C, que estão associados em série, entre os pontos X e Y. Essa associação equivale a um resistor entre os pontos X e Y com valor de:",
+      "previa": "O circuito a seguir é formado por três...",
+      "resposta": "b",
+      "alternativas": {
+        "a": "1,0 A.",
+        "b": "1,2 A.",
+        "c": "2,0 A.",
+        "d": "2,2 A."
+      },
+      "src":"./assets/questoes/dificil3.jpg"
+    },
+    {
+      "numero": 4,
+      "dificuldade": 1,
+      "conteudo": "(Enem - 2018) Alguns peixes, como o poraquê, a enguia-elétrica da Amazônia, podem produzir uma corrente elétrica quando se encontram em perigo. Um poraquê de 1 metro e comprimento, em perigo, produz uma corrente em torno de 2 ampères e uma voltagem de 600 volts. O quadro apresenta a potência aproximada de equipamentos elétricos. O equipamento elétrico que tem potência similar àquela produzida por esse peixe em perigo é:",
+      "previa": "Alguns peixes, como o poraquê, a enguia-elétrica da Amazônia, podem produzir...",
+      "resposta": "b",
+      "alternativas": {
+        "a": "Exaustor.",
+        "b": "Churasqueira elétrica.",
+        "c": "Aspirador de pó.",
+        "d": "Computador."
+      },
+      "src":"./assets/questoes/facil4.jpeg"
+    },
+    {
+      "numero": 5,
+      "dificuldade": 2,
+      "conteudo": "(UERJ - 2019) Resistores ôhmicos idênticos foram associados em quatro circuitos distintos e submetidos à mesma tensão UAB. Observe os esquemas. Nessas condições, a corrente elétrica de menor intensidade se estabelece no seguinte circuito:",
+      "previa": "Resistores ôhmicos idênticos foram associados em quatro circuitos distintos...",
+      "resposta": "d",
+      "alternativas": {
+        "a": "I",
+        "b": "II",
+        "c": "III",
+        "d": "IV"
+      },
+      "src":"./assets/questoes/media5.jpeg"
+    },
+    {
+      "numero": 6,
+      "dificuldade": 3,
+      "conteudo": "PUC/SP-2018 Dois resistores elétricos, de resistências RA e RB, geram 500 kWh de energia, quando associados em paralelo e submetidos a uma tensão elétrica de 100 V, durante 100 horas ininterruptas. Esses mesmos resistores, quando associados em série e submetidos à mesma tensão, durante o mesmo intervalo de tempo, geram 125 kWh de energia. Determine, em ohm, os valores de RA e RB, respectivamente:",
+      "previa": "Dois resistores elétricos, de resistências RA e RB, geram 500 kWh...",
+      "resposta": "d",
+      "alternativas": {
+        "a": "4 e 8.",
+        "b": "2 e 8",
+        "c": "2 e 4.",
+        "d": "4 e 4."
+      },
+      "src":""
+    },
+    {
+      "numero": 7,
+      "dificuldade": 2,
+      "conteudo": "Um resistor ôhmico de resistência elétrica igual a 2,0 é atravessado por uma corrente elétrica de 1,5 A. Determine a quantidade de energia elétrica dissipada por esse resistor a cada segundo.",
+      "previa": "Um resistor ôhmico de...",
+      "resposta": "d",
+      "alternativas": {
+        "a": "0,75 W",
+        "b": "1,33 W",
+        "c": "3,0 W",
+        "d": "4,5 W"
+      },
+      "src":""
+    },
+    {
+      "numero": 8,
+      "dificuldade": 3,
+      "conteudo": "(UFSM-RS) Analise as afirmações a seguir, referentes a um circuito contendo três resistores de resistências diferentes, associados em paralelo e submetidos a uma certa diferença de potencial, verificando se são verdadeiras ou falsas.1. A resistência do resistor equivalente é menor do que a menor das resistências dos resistores do conjunto; 2. A corrente elétrica é menor no resistor de maior resistência; 3. A potência elétrica dissipada é maior no resistor de maior resistência.",
+      "previa": "Analise as afirmações...",
+      "resposta": "a",
+      "alternativas": {
+        "a": "V, V, F",
+        "b": "V, V, V",
+        "c": "V, F, F",
+        "d": "F, V, F"
+      },
+      "src":""
+    },
+    {
+      "numero": 9,
+      "dificuldade": 1,
+      "conteudo": "A primeira lei de Ohm estabelece que: 1) a resistência elétrica dos resistores ôhmicos é variável e depende, exclusivamente, da tensão aplicada. 2) a passagem de corrente elétrica por um condutor é capaz de dissipar energia em forma de calor. 3) a resistência elétrica de um resistor ôhmico é constante e é dada pela razão da tensão aplicada pela corrente elétrica que o atravessa. 4) a resistência elétrica é uma grandeza escalar medida em ohms.",
+      "previa": "A primeira lei de Ohm...",
+      "resposta": "c",
+      "alternativas": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "src":""
+    },
+    {
+      "numero": 10,
+      "dificuldade": 2,
+      "conteudo": "Ernesto é dono de uma pensão em uma região onde o frio é intenso. Então, ele colocou um aquecedor elétrico em cada um dos 4 banheiros da pensão. Esses aquecedores são alimentados por 220 V e cada aquecedor tem 4000 W de potência. Considerando que cada aquecedor será utilizado, em média, 1 hora por dia, ao final de 30 dias. Considere o preço do KW/h igual a R$ 0,30, o gasto que Ernesto terá com os aquecedores será de:",
+      "previa": "Ernesto é dono de uma pensão em uma região onde o frio é intenso...",
+      "resposta": "c",
+      "alternativas": {
+        "a": "R$ 14,00",
+        "b": "R$ 36,00",
+        "c": "R$ 48,00",
+        "d": "R$ 120,00"
+      },
+      "src":""
+    },
+    {
+      "numero": 11,
+      "dificuldade": 1,
+      "conteudo": "Sobre um capacitor eletrolítico, é correto afirmar que: I) Ele armazena energia elétrica. II) É formado por duas placas isolantes que ficam em contato uma com a outra. III) É formado por duas pastilhas de Silício. IV) Em corrente contínua armazena o dobro do valor da tensão que é aplicada sobre ele.",
+      "previa": "Sobre um capacitor...",
+      "resposta": "a",
+      "alternativas": {
+        "a": "I",
+        "b": "II",
+        "c": "III",
+        "d": "IV"
+      },
+      "src":""
+    },
+    {
+      "numero": 12,
+      "dificuldade": 1,
+      "conteudo": "O primário de um transformador monofásico é alimentado por uma tensão alternada de 220 V. A relação de espiras entre o enrolamento primário e secundário desse transformador é de 5:1. Portanto, a tensão no secundário desse transformador será de:",
+      "previa": "O primário de um transformador monofásico é...",
+      "resposta": "a",
+      "alternativas": {
+        "a": "44 V.",
+        "b": "127 V.",
+        "c": "220 V.",
+        "d": "510 V."
+      },
+      "src":""
+    }
+  ]
+}

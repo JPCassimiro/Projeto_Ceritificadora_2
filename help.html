@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Homepage</title>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="help.css" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo-container">
+        <a href="index.html">
+          <img class="logo" src="assets/logo/logo.svg" alt="logo" />
+        </a>
+        <a href="index.html">
+          <img class="logo-text" src="assets/logo/logo-text.png" />
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div class="questionary-container">
+        <div class="help-text">
+            <h2>Apresentação</h2>
+            <p>
+                Essa aplicação web é um quiz sobre eletrônica básica, feita para a matéria Certificadora 2, com o objetivo de testar o conhecimento do jogador no tópico de eletrônica básica.
+            </p>
+            <br>
+            <h2>Como jogar</h2>
+            <ul>
+                <li>Resolver questões te dá pontos. Quanto maior a dificuldade, mais pontos.</li>
+                <li>Questões de dificuldade média só podem ser resolvidas após uma questão de dificuldade fácil ser resolvida.</li>
+                <li>Questões de dificuldade difícil só podem ser resolvidas após uma questão de dificuldade média ser resolvida.</li>
+                <li>Questões dão menos pontos cada vez que forem resolvidas novamente.</li>
+            </ul>
+            <br>
+            <h2>Ajuda</h2>
+            <p>Aqui estão algumas formulas que podem te ajduar a resolver os problemas:</p>
+            <br>
+            <p style="font-style: oblique;">
+              Lei de Ohm
+            </p>
+            <p>
+              A lei de Ohm é uma das bases da eletrônica, sendo de suma importancia para determinar grandezas relevantes em circuitos eletricos:
+            </p>
+            <br>
+            <div style="margin: auto; width: 50%; padding: 10px; font-size: 25px;">
+              <math display="inline">
+                <mi> V </mi> <mo> = </mo> <mi> R </mi> <mo> &#x00B7; <!-- middle dot --> </mo> <mi> I </mi>
+              </math>
+            </div>
+            <br>
+            <p>Onde V é a tensão(potencial eletrico), R é a resistencia e I é a corrente.</p>
+            <br>
+            <p style="font-style: oblique;">
+              Associação de resistores
+            </p>
+            <P>Quando temos varios resistores em um unico circuito, seus valores são somados, essa soma é executada de forma diferente dependendo da sua Associação.</P>
+            <br>
+            <p>Para resistores em série usamos:</p>
+            <img style="height: 150px; width: 200px;" src="./assets/serie.PNG" alt="circuito">
+            <br>
+            <div style="margin: auto; width: 50%; padding: 10px; font-size: 25px;">
+              <math display="inline">
+                <msub> <mrow> <mi> R </mi> </mrow> <mrow> <mi> T </mi> </mrow> </msub> <mo> = </mo> <msub> <mrow> <mi> R </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> + </mo> <msub> <mrow> <mi> R </mi> </mrow> <mrow> <mn> 2 </mn> </mrow> </msub>
+              </math>
+            </div>
+            <br>
+            <p>E para resistores em paralelo usamos:</p>
+            <img style="height: 150px; width: 200px;" src="./assets/paralelo.PNG" alt="circuito">
+            <br>
+            <div style="margin: auto; width: 50%; padding: 10px; font-size: 25px;">
+              <math display="inline">
+                <msub> <mrow> <mi> R </mi> </mrow> <mrow> <mi> T </mi> </mrow> </msub> <mo> = </mo> <mfrac> <mrow> <msub> <mrow> <mi> R </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> &#x00B7; <!-- middle dot --> </mo> <msub> <mrow> <mi> R </mi> </mrow> <mrow> <mn> 2 </mn> </mrow> </msub> </mrow> <mrow> <msub> <mrow> <mi> R </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> + </mo> <msub> <mrow> <mi> R </mi> </mrow> <mrow> <mn> 2 </mn> </mrow> </msub> </mrow> </mfrac>
+              </math>
+            </div>
+            <br>
+            <p style="font-style: oblique;">Associação de capacitores:</p>
+            <p>Similarmente a resistores, podemos associar varios capacitores.</p>
+            <br>
+            <p>Para capacitores em série usamos:</p>
+            <img style="height: 150px; width: 200px;" src="./assets/serie2.PNG" alt="circuito">
+            <br>
+            <div style="margin: auto; width: 50%; padding: 10px; font-size: 25px;">
+              <math display="inline">
+                <msub> <mrow> <mi> C </mi> </mrow> <mrow> <mi> T </mi> </mrow> </msub> <mo> = </mo> <mfrac> <mrow> <msub> <mrow> <mi> C </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> &#x00B7; <!-- middle dot --> </mo> <msub> <mrow> <mi> C </mi> </mrow> <mrow> <mn> 2 </mn> </mrow> </msub> </mrow> <mrow> <msub> <mrow> <mi> C </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> + </mo> <msub> <mrow> <mi> C </mi> </mrow> <mrow> <mn> 2 </mn> </mrow> </msub> </mrow> </mfrac>
+              </math>
+            </div>
+            <br>
+            <p>Para capacitores em paralelo usamos:</p>
+            <img style="height: 150px; width: 200px;" src="./assets//paralelo2.PNG" alt="circuito">
+            <br>
+            <div style="margin: auto; width: 50%; padding: 10px; font-size: 25px;">
+              <math>
+                <msub> <mrow> <mi> C </mi> </mrow> <mrow> <mi> T </mi> </mrow> </msub> <mo> = </mo> <msub> <mrow> <mi> C </mi> </mrow> <mrow> <mn> 1 </mn> </mrow> </msub> <mo> + </mo> <msub> <mrow> <mi> C </mi> </mrow> <mrow> <mn> 2 </mn> </mrow> </msub>
+              </math>
+            </div>
+            <br>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
